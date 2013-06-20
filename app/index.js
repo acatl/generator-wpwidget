@@ -48,7 +48,7 @@ WpwidgetGenerator.prototype.askFor = function askFor() {
         name: "Module",
         value: 'module'
       },{
-        name: "let me handel it",
+        name: "let me handle it",
         value: 'none'
       }
     ]
@@ -78,7 +78,7 @@ WpwidgetGenerator.prototype.app = function app() {
   this.mkdir(this.dashedWidgetName + '/lang');
   this.mkdir(this.dashedWidgetName + '/views');
 
-  this.template('_plugin.php', this.dashedWidgetName + '/' + this.dashedWidgetName + '.php');
+  this.template('_plugin.php', this.dashedWidgetName + '/' + this.dashedWidgetName + '-widget.php');
 
   this.template('css/' + '_admin.css', this.dashedWidgetName + '/css/admin.css');
   this.template('css/' + '_widget.css', this.dashedWidgetName + '/css/widget.css');

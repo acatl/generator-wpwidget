@@ -168,7 +168,7 @@ class <%= classWidgetName %>_Widget extends WP_Widget {
 
         // TODO:    Change '<%= _.slugify(widgetName) %>' to the name of your plugin
         $plugin_url = get_template_directory_uri().'/widgets/<%= _.slugify(widgetName) %>/css/admin.css';
-        wp_enqueue_style( '<%= _.slugify(widgetName) %>-admin-styles', $plugin_url, array('jquery'), false, true );
+        wp_enqueue_style( '<%= _.slugify(widgetName) %>-admin-styles', $plugin_url);
 
     } // end register_admin_styles
 
@@ -190,7 +190,7 @@ class <%= classWidgetName %>_Widget extends WP_Widget {
 
         // TODO:    Change '<%= _.slugify(widgetName) %>' to the name of your plugin
         $plugin_url = get_template_directory_uri().'/widgets/<%= _.slugify(widgetName) %>/css/widget.css';
-        wp_enqueue_style( '<%= _.slugify(widgetName) %>-widget-styles', $plugin_url, array('jquery'), false, true );
+        wp_enqueue_style( '<%= _.slugify(widgetName) %>-widget-styles', $plugin_url);
 
     } // end register_widget_styles
 

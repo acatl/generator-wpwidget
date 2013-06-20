@@ -1,5 +1,5 @@
 /* This stylesheet is used to style the admin option form of the widget. */
 
-.<%= _.slugify(widgetName) %>-admin {
+.<%= _.slugify(domainPrefix) %>-widget.<%= _.slugify(widgetName) %>-admin {
 
 }
