@@ -1,9 +1,11 @@
 {
   "name": "generator-wpwidget",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.1.0",
+  "description": "A generator for Yeoman - Create Wordpress Widget base code",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "wordpress",
+    "widget"
   ],
   "homepage": "https://github.com/acatl/generator-wpwidget",
   "bugs": "https://github.com/acatl/generator-wpwidget/issues",
