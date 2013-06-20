@@ -1,5 +1,5 @@
 # Generator-wpwidget
-[![Build Status](https://secure.travis-ci.org/acatl/generator-wpwidget.png?branch=master)](https://travis-ci.org/acatl/generator-wpwidget)
+<!-- [![Build Status](https://secure.travis-ci.org/acatl/generator-wpwidget.png?branch=master)](https://travis-ci.org/acatl/generator-wpwidget) -->
 
 A generator for Yeoman.
 Create Wordpress Widget base code.
