@@ -5,7 +5,7 @@ A generator for Yeoman.
 Create Wordpress Widget base code.
 
 ## Credits: 
-Widget boiler plate 
+WP Widget Boilerplate
 [tommcfarlin/WordPress-Widget-Boilerplate](https://github.com/tommcfarlin/WordPress-Widget-Boilerplate)
 
 
