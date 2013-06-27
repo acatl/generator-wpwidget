@@ -167,7 +167,7 @@ class <%= classWidgetName %>_Widget extends WP_Widget {
     public function register_admin_styles() {
 
         // TODO:    Change '<%= _.slugify(widgetName) %>' to the name of your plugin
-        $plugin_url = get_template_directory_uri().'/widgets/<%= _.slugify(widgetName) %>/css/admin.css';
+        $plugin_url = get_template_directory_uri().'/inc/widgets/<%= _.slugify(widgetName) %>/css/admin.css';
         wp_enqueue_style( '<%= _.slugify(widgetName) %>-admin-styles', $plugin_url);
 
     } // end register_admin_styles
@@ -178,7 +178,7 @@ class <%= classWidgetName %>_Widget extends WP_Widget {
     public function register_admin_scripts() {
 
         // TODO:    Change '<%= _.slugify(widgetName) %>' to the name of your plugin
-        $plugin_url = get_template_directory_uri().'/widgets/<%= _.slugify(widgetName) %>/js/admin.js';
+        $plugin_url = get_template_directory_uri().'/inc/widgets/<%= _.slugify(widgetName) %>/js/admin.js';
         wp_enqueue_script( '<%= _.slugify(widgetName) %>-admin-script', $plugin_url, array('jquery'), false, true );
 
     } // end register_admin_scripts
@@ -189,7 +189,7 @@ class <%= classWidgetName %>_Widget extends WP_Widget {
     public function register_widget_styles() {
 
         // TODO:    Change '<%= _.slugify(widgetName) %>' to the name of your plugin
-        $plugin_url = get_template_directory_uri().'/widgets/<%= _.slugify(widgetName) %>/css/widget.css';
+        $plugin_url = get_template_directory_uri().'/inc/widgets/<%= _.slugify(widgetName) %>/css/widget.css';
         wp_enqueue_style( '<%= _.slugify(widgetName) %>-widget-styles', $plugin_url);
 
     } // end register_widget_styles
@@ -200,7 +200,7 @@ class <%= classWidgetName %>_Widget extends WP_Widget {
     public function register_widget_scripts() {
 
         // TODO:    Change '<%= _.slugify(widgetName) %>' to the name of your plugin
-        $plugin_url = get_template_directory_uri().'/widgets/<%= _.slugify(widgetName) %>/js/widget.js';
+        $plugin_url = get_template_directory_uri().'/inc/widgets/<%= _.slugify(widgetName) %>/js/widget.js';
         wp_enqueue_script( '<%= _.slugify(widgetName) %>-script', $plugin_url, array('jquery'), false, true );
 
     } // end register_widget_scripts
